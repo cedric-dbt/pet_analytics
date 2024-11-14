@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: nba
+    database: PET_ANALYTICS_DEMO
+    schema: PET_NBA_LEAGUE
+    tables:
+      - name: nba_raw_games
