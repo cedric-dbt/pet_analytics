@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: pets
+    database: PET_ANALYTICS_DEMO
+    schema: PET_NBA_LEAGUE
+    tables:
+      - name: cat_breed_data
+      - name: dog_breed_data
+
+
+  - name: exotic_animals
+    database: PET_ANALYTICS_DEMO
+    schema: PET_NBA_LEAGUE
+    tables:
+      - name: exotic_animal_data
