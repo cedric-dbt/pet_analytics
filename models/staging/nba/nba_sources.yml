@@ -6,3 +6,10 @@ sources:
     schema: PET_NBA_LEAGUE
     tables:
       - name: nba_raw_games
+      - name: nba_player_stats_historic
+        description: historical player stats
+        columns:
+          - name: player_weight
+            description: player weight in kilograms
+          - name: player_height
+            description: player's height in centimeters
